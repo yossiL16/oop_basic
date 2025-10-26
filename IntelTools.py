@@ -2,6 +2,9 @@
 
 class IntelTools:
 
+    def __init__(self):
+        pass
+
     @staticmethod
     def encrypt_message(msg: str):
         return msg[:: -1]
