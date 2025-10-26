@@ -1,10 +1,5 @@
-from agent import Agent
-from mission import Mission
-
-# agent = Agent("yossi", 5)
-# misiim = Mission("alon", "tlv",agent)
-# print(misiim.brief())
-
+from Agent import Agent
+from Mission import Mission
 
 mission = Mission("YY", "TLV")
 mission.assigned_agent1(Agent("yt", 9))
